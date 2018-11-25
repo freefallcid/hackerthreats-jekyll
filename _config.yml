@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: hacker threats
+#email: info@hacker-threats.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://hackerthreats.eu" # the base hostname & protocol for your site, e.g. http://example.com
+author:
+  name: äitsch_tee
+  #twitter: freefall0
+  #picture: https://api.adorable.io/avatars/285/johndoe.png
+#twitter_username: freefall0
+#github_username:  freefallcid
+#logo: /assets/icons/basically-basic-logo-light.svg
+search: true
+search_full_content: true
+search_provider: algolia
+algolia:
+  application_id: RM5UBNYOIM
+  index_name: hacker-threats
+  search_only_api_key: 76f79ffe28e10e3d95fbf8503a08f846
+  powered_by: # true (default), false
+
+# Liquid
+liquid:
+  error_mode: strict
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-basically-basic
+plugins: # previously gems
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+feed:
+  path: atom.xml
+
+# Pagination - https://jekyllrb.com/docs/pagination/
+paginate: 3
+paginate_path: /page:num/
+
+# Collections
+# collections:
+#   recipes:
+#     output: true
+#     permalink: /:collection/:path/
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      read_time: true
+  - scope:
+      path: "_drafts"
+    values:
+      layout: post
+      read_time: true
+  # _recipes
+  - scope:
+      path: "_recipes"
+      type: recipes
+    values:
+      layout: post
+      read_time: true

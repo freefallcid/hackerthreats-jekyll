@@ -1,0 +1,7 @@
+host        : 0.0.0.0
+url         : http://hacker-threats.dev
+baseurl     : ""
+
+profile     : true
+future      : true
+show_drafts : true
