@@ -14,7 +14,7 @@ Hello!
 
 I have very bad news for you.
 03/08/2018 - on this day I hacked your OS and got full access to your account child@death.prince-of-darkness.org
-On this day your account child@death.prince-of-darkness.org has password: bodom6676
+On this day your account child@death.prince-of-darkness.org has password: *********
 
 So, you can change the password, yes.. But my malware intercepts it every time.
 
