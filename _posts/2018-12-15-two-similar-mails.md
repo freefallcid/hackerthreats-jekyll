@@ -133,7 +133,6 @@ Good luck!</code></pre>
 ## First messages headers
 
 ```
-X-Sieve: CMU Sieve 3.0
 X-Spam-known-sender: no ("From == To and no DKIM or SPF for from domain, likely forged")
 Subject: {SPAM 28.1} Account Issue. Changed password. (your password:********)
 X-Spam: high
@@ -166,7 +165,6 @@ X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17514
 ## Second messages headers
 
 ```
-X-Sieve: CMU Sieve 3.0
 X-Spam-known-sender: no ("From == To and no DKIM or SPF for from domain, likely forged")
 Subject: {SPAM 34.0} Security Alert. You account has been hacked. Password must
  be need changed. (your password:********)
