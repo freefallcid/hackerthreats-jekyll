@@ -1,7 +1,7 @@
 ---
 title: "child@death.prince-of-darkness.org has been hacked!"
 # excerpt: ""
-# date: 
+date: 2018-12-16T09:13:43+01:00
 #updated: 
 ---
 
